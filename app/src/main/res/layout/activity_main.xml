@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:background="#00f"
+        android:gravity="center"
+        android:onClick="jumpUniapp"
+        android:text="打开assetes"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:background="#00f"
+        android:gravity="center"
+        android:onClick="jumpUniappFromsd"
+        android:text="打开SD卡下wgt"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginTop="10dp"
+        android:background="#00f"
+        android:gravity="center"
+        android:onClick="jumpText"
+        android:text="测试"
+        android:textColor="@color/white"
+  />
+
+</LinearLayout>
